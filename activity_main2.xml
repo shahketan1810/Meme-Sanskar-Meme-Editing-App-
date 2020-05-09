@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/uploadedimage"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/introimg"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/et1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:clickable="true"
+        android:gravity="center"
+        android:singleLine="false"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/et2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:clickable="true"
+        android:gravity="center"
+        android:singleLine="false"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/et3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:clickable="true"
+        android:gravity="center"
+        android:singleLine="false"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/et4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:clickable="true"
+        android:gravity="center"
+        android:singleLine="false"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        android:visibility="invisible" />
+
+    <EditText
+        android:id="@+id/Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:ems="10"
+        android:hint="Enter here..."
+        android:inputType="textMultiLine"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/texted"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginBottom="100dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:onClick="textenabler"
+        android:text="T"
+        android:textColor="#191818"
+        android:textSize="36sp"
+        android:textStyle="bold|italic"
+        android:visibility="visible" />
+
+    <ImageButton
+        android:id="@+id/download_meme"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="10dp"
+        android:background="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        android:visibility="visible"
+        app:srcCompat="@drawable/downloadmeme" />
+
+    <com.divyanshu.colorseekbar.ColorSeekBar
+        android:id="@+id/seektextcolor"
+        android:layout_width="220dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginEnd="10dp"
+        android:background="@android:color/white"
+        android:visibility="visible" />
+
+    <SeekBar
+        android:id="@+id/seektextsize"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+        android:visibility="visible" />
+
+</RelativeLayout>
