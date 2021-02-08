@@ -10,5 +10,5 @@ And Hence, my project ends
 
 Acknowledgement : 
 My Course teacher and Coursera-Build your first android development and Udemy - Learn Android Development app for giving me basics of Android Development
-Offcourse those random Youtube Channels who thought me this cool stuff like Firebase
+Ofcourse those random Youtube Channels who thought me this cool stuff like Firebase
 And the "Messiahs" from StackOverflow
